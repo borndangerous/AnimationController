@@ -13,8 +13,7 @@
     self.animationController = [[MyAnimationController alloc] initWithView:self.view];
 }
 
-- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
-{
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
     [self.animationController restart];
 }
 
